@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/trips"
+            android:icon="@drawable/t"
+            android:title="View Trips" />
+        <item
+            android:id="@+id/addexpense"
+            android:icon="@drawable/t"
+            android:title="Add Expenses" />
+        
+        <item
+            android:id="@+id/exit"
+            android:icon="@drawable/exi"
+            android:title="Exit" />
+
+    </group>
+    <item android:title="Expenses">
+        <menu>
+            <item
+                android:id="@+id/day"
+                android:icon="@drawable/er"
+                android:title="Day_Wise" />
+            <item
+            android:id="@+id/trip"
+            android:icon="@drawable/er"
+            android:title="Trip_Wise" />
+            <item
+                android:id="@+id/category"
+                android:icon="@drawable/er"
+                android:title="Category_Wise" />
+        </menu>
+    </item>
+
+
+</menu>
